@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "package.json", "use": "@vercel/static-build" }
+    ],
+    "routes": [
+      { "src": "/api/(.*)", "dest": "https://teamwork-iojfyw16z-md-shaheds-projects-6a84f6b9.vercel.app/api/$1" }
+    ]
+  }
+  
