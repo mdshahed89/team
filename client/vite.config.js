@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://teamwork-6aj1yi2df-md-shaheds-projects-6a84f6b9.vercel.app',
+        target: 'http://localhost:3000',
         changeOrigin: true,
         secure: true
       },
